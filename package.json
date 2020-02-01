@@ -1,0 +1,36 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Assignment to practice streaming different media using node",
+  "main": "index.js",
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.13.0"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5jasonc/streaming-media-assignment.git"
+  },
+  "keywords": [
+    "streaming",
+    "media",
+    "assignment",
+    "server"
+  ],
+  "author": "Jason Streeter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5jasonc/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/5jasonc/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
